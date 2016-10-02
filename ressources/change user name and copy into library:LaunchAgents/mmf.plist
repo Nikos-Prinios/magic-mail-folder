@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>com.MMF.script.plist</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/local/bin/python</string>
+		<string>/Users/Nikos/Magic-mail-folder/ressources/mmf.py</string>
+	</array>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>StandardErrorPath</key>
+	<string>/tmp/com.MMF.script.plist.err</string>
+	<key>StandardOutPath</key>
+	<string>/tmp/com.MMF.script.plist.out</string>
+	<key>StartInterval</key>
+	<integer>60</integer>
+</dict>
+</plist>
