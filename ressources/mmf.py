@@ -1,4 +1,5 @@
 from pync import Notifier
+# pip install pync
 import os, fnmatch, smtplib, sys
 import re, ntpath
 from email.MIMEMultipart import MIMEMultipart
