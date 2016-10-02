@@ -7,7 +7,7 @@
 	<key>ProgramArguments</key>
 	<array>
 		<string>/usr/local/bin/python</string>
-		<string>/Users/Nikos/Magic-mail-folder/ressources/mmf.py</string>
+		<string>/Users/NAME/Magic-mail-folder/ressources/mmf.py</string>
 	</array>
 	<key>RunAtLoad</key>
 	<true/>
