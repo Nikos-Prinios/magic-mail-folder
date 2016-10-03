@@ -106,7 +106,6 @@ def zipit(folder)	:
 	for filename in os.listdir(folder):
 		if not "Sent files" in filename :
 			if os.path.isdir(folder + '/' + filename):
-				print('directory : ' + filename)
 				shutil.make_archive(folder + '/' + filename, "zip", folder + '/' + filename)
 				shutil.rmtree(folder + '/' + filename)
 				
