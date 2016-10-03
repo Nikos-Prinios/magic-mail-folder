@@ -1,4 +1,4 @@
-from pync import Notifier
+#from pync import Notifier
 # pip install pync
 import os, fnmatch, smtplib, sys
 import re, ntpath
@@ -17,8 +17,8 @@ home = expanduser("~")
 mmFolders = []
 
 def sendmessage(message):
-    Notifier.notify(message)
-    #print(message)
+    #Notifier.notify(message)
+    print(message)
     return
 
 def init():
