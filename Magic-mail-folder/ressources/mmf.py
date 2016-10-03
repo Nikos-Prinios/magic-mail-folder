@@ -17,9 +17,9 @@ home = expanduser("~")
 mmFolders = []
 
 def sendmessage(message):
-    #Notifier.notify(message)
-    print(message)
-    return
+	cmd = "osascript -e \'display notification \""+ message + "\" with title \"Magic Mail Folder\"\'"
+	os.system ( cmd )
+	return
 
 def init():
 	global home, login,smtpserver,password
