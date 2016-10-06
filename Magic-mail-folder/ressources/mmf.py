@@ -91,7 +91,7 @@ def searchForFiles(folder) :
 	create_things(folder)
 	pj = []
 	for filename in os.listdir(folder):
-		if not ".DS_Store" in filename and not "Sent files" in filename and not "msg.tx" in filename :
+		if not ".DS_Store" in filename and not "icon" in filename and not "Sent files" in filename and not "msg.tx" in filename :
 			pj.append(folder + '/' + filename)
 	if len(pj) > 0 :
 		if send_mail(ntpath.basename(folder), subject(pj), body(folder),pj) :
